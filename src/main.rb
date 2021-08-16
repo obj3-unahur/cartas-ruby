@@ -4,6 +4,6 @@ class Calculadora
   end
 
   def self.dividir(a, b)
-    a / 0
+    a / b
   end
 end
