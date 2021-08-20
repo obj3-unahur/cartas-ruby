@@ -3,7 +3,7 @@ require_relative '../src/main'
 describe "Main Tests" do
 
   it "sumar 3 + 2 should be 5" do
-    expect(Calculadora.sumar(3, 2)).eql?(5)
+    expect(Calculadora.sumar(3, 2)).to eq(5)
   end
 
   it "dividir por 0 should throw exception" do
